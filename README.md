@@ -11,8 +11,7 @@ Pada setup ini, U-Boot tetap dimuat dari eMMC dan membaca `uEnv.txt` dari partis
 ```
 .
 ├── auto-ssd-boot.sh   # script utama
-├── README.md
-└── LICENSE            # opsional (MIT)
+└── README.md
 ```
 
 ## Persyaratan
@@ -69,7 +68,3 @@ Script tidak menyentuh `mmcblk2boot0`, `mmcblk2boot1`, atau `mmcblk2` secara lan
 ## Peringatan
 
 Mengubah konfigurasi boot berisiko membuat perangkat tidak bisa boot. Selalu siapkan backup dan akses fallback sebelum menjalankan script.
-
-## Lisensi
-
-MIT (atau sesuaikan dengan lisensi yang kamu pilih di GitHub).
